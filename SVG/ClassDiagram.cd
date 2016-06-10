@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Circle">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>Circle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Eclipse">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>Eclipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polygon">
+    <Position X="12.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAE=</HashCode>
+      <FileName>Polygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Polyline">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAE=</HashCode>
+      <FileName>Polyline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAAAAAAAAAAAAABCAAAAAAAAAAAE=</HashCode>
+      <FileName>Rectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotate">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAE=</HashCode>
+      <FileName>Rotate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Line">
+    <Position X="18.75" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="ShapeNoFill" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="5.483" />
+        <Point X="19.5" Y="5.858" />
+        <Point X="20.625" Y="5.858" />
+        <Point X="20.625" Y="6.75" />
+        <Point X="20.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAQAAAAAAAAAAAAAAAAABAAAAAAAAABAAE=</HashCode>
+      <FileName>Line.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAIAAAAAAAAAAAAAAABAAAAABAAAAAgAAAAAAE=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeHasFill">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>ShapeHasFill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeNoFill">
+    <Position X="18.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeNoFill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SVGFileWritter">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAABAAAAAAAAAABAEACAAQAAAAAAAAA=</HashCode>
+      <FileName>SVGWritter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Translate">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="ITransform" FixedToPoint="true">
+      <Path>
+        <Point X="20.75" Y="1.796" />
+        <Point X="20.75" Y="2.688" />
+        <Point X="21.25" Y="2.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAYBAAAAAAAAAAAAE=</HashCode>
+      <FileName>Translate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Style">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>Style.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fill">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAABAAAAAACBAAAQAAgAgIAAE=</HashCode>
+      <FileName>Fill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITransform">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAE=</HashCode>
+      <FileName>ITransform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point2D">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAGAAAAQAAAABAAAAAAAGAAAAA=</HashCode>
+      <FileName>Point2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGBColor">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAJAAEAAAQAAAABAAAAQAAAAAAQk=</HashCode>
+      <FileName>RGBColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stroke">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAQAAAAAAAAAAAAABAAAAgAABCAAQAAgAgIAAE=</HashCode>
+      <FileName>Stroke.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
